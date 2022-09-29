@@ -20,6 +20,8 @@ public:
                 answer = low = mid+1;
             }
         }
+        if(answer<0)
+            answer = 0;
         return answer;
     }
 };
