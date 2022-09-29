@@ -11,17 +11,21 @@ public:
                 answer = mid;
                 break;
             }
-            else if(nums[mid]>target)
+            else if(nums[mid]<target)
             {
-                answer = high = mid-1;
+                low = mid+1;
+                answer = low;
             }
             else
             {
-                answer = low = mid+1;
+                answer = high;
+                high = mid-1;
             }
         }
         if(answer<0)
+        {
             answer = 0;
+        }
         return answer;
     }
 };
