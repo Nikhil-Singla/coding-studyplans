@@ -4,8 +4,8 @@ public:
         int start = 0;
         int end = nums.size()-1;
         int mid = 0;
-        mid = ((start)+end)/2;
-        while(start<end)
+        mid = (start+end)/2;
+        while(start<=end)
         {
             if(nums.at(mid) == target)
                 return mid;
