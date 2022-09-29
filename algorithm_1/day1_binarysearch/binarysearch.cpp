@@ -5,7 +5,7 @@ public:
         int end = nums.size()-1;
         int mid = 0;
         mid = (start+end)/2;
-        while(start<=end)
+        do
         {
             if(nums.at(mid) == target)
                 return mid;
@@ -19,6 +19,7 @@ public:
             }
             mid = ((start++)+end)/2;
         }
+        while(start<end);
         return (-1);
     }
 };
