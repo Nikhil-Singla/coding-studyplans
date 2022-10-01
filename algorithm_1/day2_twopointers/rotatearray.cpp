@@ -1,31 +1,48 @@
+# include <string>
 class Solution {
 public:
-    void rotate(vector<int>& nums, int k) {
-        int a = nums.size(), l=0;
-        vector<int> rot(a);
-        int flag = 0, flag2 = 0;
-        for(int i=0,j=0; i<a && j<k; i++)
+    int lengthOfLongestSubstring(string s) {
+        vector<bool> hash(256, false);
+        int length = s.length();
+        if(length<2)
         {
-            flag2 = 1;
-            l = i+k;
-            if(l<a)
-                {rot[l]=nums[i];}
-            else
-            {
-                if(flag == 0)
-                {
-                    l=0;
-                    rot[l]=nums[i];
-                    flag = 1;
-                    j++;
-                }
-                else
-                {
-                    rot[j]=nums[i];
-                    j++;
-                }
-            }
+            return length;
         }
-        if(flag2==1){nums = rot;}
+        auto first=s.begin(), second=s.end();
+        return 1;
     }
 };
+
+//OLD Code for experience
+        /*int len = 0, size=s.size();
+        string::iterator first, second, last;
+        first = s.begin();
+        second = first+1;
+        last = s.end()-2;
+        int temp = 0;
+        int furst = -1, seconduh = -1;
+        while(second <= last)
+        {
+            temp = 1;
+            // std::cout<<*first;
+            vector<pair<int,int>> hash_set(256, -1);
+            furst = *first;
+            seconduh = *second;
+            hash_set[furst] = 1;
+            hash_set[seconduh] = 1;
+            while((hash_set[*second]!=1) && (second<=last))
+            {
+                hash_set[*second] = 1;
+                ++temp;
+                ++second;
+                std::cout<<*second;
+            }
+            ++second;
+            // std::cout<<*second;
+            first = second;
+            if(len<temp)
+            {
+                len = temp;
+            }
+        }
+        return len;*/
