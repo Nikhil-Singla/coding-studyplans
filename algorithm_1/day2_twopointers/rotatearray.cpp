@@ -2,14 +2,46 @@
 class Solution {
 public:
     int lengthOfLongestSubstring(string s) {
-        vector<bool> hash(256, false);
-        int length = s.length();
+        vector<int> hash(256, -1);
+        int length = s.length(), result=0, var=0;
         if(length<2)
         {
             return length;
         }
+        else if(length == 2)
+        {
+            if(s.at(0)==s.at(1))
+            {return(1);}
+            else
+            {return 2;}
+        }
         auto first=s.begin(), second=s.end();
-        return 1;
+        auto temp = first+1;
+        int ascii=0;
+        ascii = int(*first);
+        hash[ascii] = 1;
+        length = 1;
+        while(temp<=second)
+        {
+            while(*temp!=*first && temp<=second)
+            {
+                ascii = int(*temp);
+                if(hash[ascii]==1)
+                {
+                    if(result<var)
+                    {
+                        result = var;
+                    }
+                    var = 1;
+                    first = temp++;
+                }
+                hash[ascii] = 1;
+                var++;
+            }
+            var = 1;
+            first = temp++;
+        }
+        return result;
     }
 };
 
