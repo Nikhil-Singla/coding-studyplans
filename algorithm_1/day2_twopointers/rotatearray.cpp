@@ -16,6 +16,7 @@ public:
         reverse(nums.begin()+k,nums.end()); //Comment out for alt sol
     }
 
+    //This works, just too slow for 2^31 large numbers
     /*void go_next(vector<int> &nums, int len)
     {
         auto first = nums.begin();
