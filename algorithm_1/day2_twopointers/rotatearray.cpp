@@ -1,31 +1,29 @@
+#include <algorithm>
+#include <stdlib.h>
 class Solution {
 public:
-    void rotate(vector<int>& nums, int k) {
-        int a = nums.size(), l=0;
-        vector<int> rot(a);
-        int flag = 0, flag2 = 0;
-        for(int i=0,j=0; i<a && j<k; i++)
+    void go_next(vector<int> &nums, int len)
+    {
+        auto first = nums.begin();
+        auto last = nums.end();
+        int k = len, i=0;
+        while(k-- > 0)
         {
-            flag2 = 1;
-            l = i+k;
-            if(l<a)
-                {rot[l]=nums[i];}
-            else
+            std::swap(nums[i],nums[len-1]);
+            i++;
+        }
+    }
+    void rotate(vector<int>& nums, int k) {
+        int length = nums.size();
+        if(length<2)
+        {}
+        else
+        {
+            for(int i=0; i<k; i++)
             {
-                if(flag == 0)
-                {
-                    l=0;
-                    rot[l]=nums[i];
-                    flag = 1;
-                    j++;
-                }
-                else
-                {
-                    rot[j]=nums[i];
-                    j++;
-                }
+                length = nums.size();
+                go_next(nums, length);
             }
         }
-        if(flag2==1){nums = rot;}
-    }
+    } 
 };
