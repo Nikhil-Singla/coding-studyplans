@@ -2,18 +2,21 @@ class Solution {
 public:
     string reverseWords(string s) {
         reverse(s.begin(),s.end());
+        //cout<<s<<"~~";
         auto point1=s.begin(), point2=s.begin();
         while(point2<=s.end())
         {
             if((*point2)==(' ')||(*point2)==NULL)
             {
+                //cout<<s<<"?";
                 reverse(point1,point2);
                 point1 = point2;
+                point1++;
+                //cout<<s<<"|";
             }
             point2++;
         }
-        reverse(s.begin(),s.end()-1);
-        
+        reverse(s.begin(),s.end());  
         return s;
     }
 };
