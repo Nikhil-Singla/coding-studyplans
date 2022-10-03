@@ -21,6 +21,19 @@ public:
         {
             return nullptr;
         }
+        else if(count == 2)
+        {
+            if(n==1)
+            {
+                head->next = nullptr;
+                return head;
+            }
+            else
+            {
+                head = head->next;
+                return head;
+            }
+        }
         int target = count-n;
         ListNode *temp = head, *held;
         for(int i = target; i>0; i--)
