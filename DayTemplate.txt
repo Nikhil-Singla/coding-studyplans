@@ -1,0 +1,7 @@
+Day: X
+Days Left: XX
+Difficulty: (X : X : X)
+Names -
+  XXXX. XXXXXXXXX
+  XXXX. XXXXXXXXX
+   
