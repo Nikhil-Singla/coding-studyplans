@@ -17,25 +17,17 @@ public:
             count++;
         }
         count++;
+        ListNode *temp = head, *held;
         if(count == 1)
         {
             return nullptr;
         }
-        else if(count == 2)
+        else if(count == n)
         {
-            if(n==1)
-            {
-                head->next = nullptr;
-                return head;
-            }
-            else
-            {
-                head = head->next;
-                return head;
-            }
+            head = head->next;
+            return head;
         }
         int target = count-n;
-        ListNode *temp = head, *held;
         for(int i = target; i>0; i--)
         {
             temp = temp->next;
