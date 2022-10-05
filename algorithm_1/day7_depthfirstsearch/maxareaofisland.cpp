@@ -13,6 +13,7 @@ public:
                 }
             }
         }
+        return result;
     }
     int search(vector<vector<int>>& grid, int i, int j)
     {
