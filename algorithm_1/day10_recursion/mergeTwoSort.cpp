@@ -42,6 +42,10 @@ public:
             if(list2 == nullptr)
             {
                 result->next = list1;
+                while(result->next!=nullptr)
+                {
+                    result = result->next;
+                }
                 break;
             }
         }
