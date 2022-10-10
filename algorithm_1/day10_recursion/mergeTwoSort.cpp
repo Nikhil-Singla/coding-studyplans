@@ -45,12 +45,13 @@ public:
                 break;
             }
         }
-        while(list2 != nullptr)
+        result->next = list2;
+        /* while(list2 != nullptr)
         {
             temp = new ListNode(list2->val);
             result->next = temp;
             list2 = list2->next;
-        }
+        } */
         answer = answer->next;
         return answer;
     }
