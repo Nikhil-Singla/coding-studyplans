@@ -51,6 +51,7 @@ public:
             result->next = temp;
             list2 = list2->next;
         }
+        answer = answer->next;
         return answer;
     }
 };
