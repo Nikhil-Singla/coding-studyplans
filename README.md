@@ -1,8 +1,8 @@
 # leetcode_studyplans
 Study Plans
-Completed: 0
+Completed: 0.5
 
-Current Status: Yes
+Current Status: Inactive
 
 Disclaimer: 
 All the code is only tailored to the competition/problem and serves to demonstrate understanding, and is in no way exhaustive of the real world scenarios. 
