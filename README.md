@@ -1,6 +1,6 @@
 # leetcode_studyplans
 Study Plans
-Completed: 0.5
+Completed: 0.5+0.5
 
 Current Status: Inactive
 
