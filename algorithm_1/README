@@ -1,13 +1,70 @@
-Name: Algorithm 1 (Study Plan)
+# Algorithm 1 — Study Plan
+
 Duration: 14 days
-Difficulty breakdown: (17 : 14 : 0)
-(Easy : Medium : Hard)
+Difficulty breakdown: (17 : 14 : 0) (Easy : Medium : Hard)
 
-Journal Entry:
-Its algorithm1, Day 7. Noticeable improvements in my time and code generation already. My thinking has become more intuitive due to my experience. Specially seen in
-Max Area of Island (Usage of the Max function from one of the previous codes which I normally wouldn't have done before)
-Just felt really happy and satisfied on this small achievement. I can feel the improvements in real time.
+## Problems (compiled)
 
-Day 9: Really put my foot in my mouth with that one. End of the Study Plan to focus more on my game creation in <Projects> Repository. Also depth first 
-search was getting harder and harder to understand due to insufficient preperation hence I'm ending this study plan for now, perhaps will come back to 
-it later when I understand more.
+### Day 1
+Days Left: 13  
+Difficulty: (3 : 0 : 0)  
+Problems:
+- 704. Binary Search
+- 278. First Bad Version
+- 35. Search Insert Position
+
+### Day 2
+Days Left: 12  
+Difficulty: (1 : 1 : 0)  
+Problems:
+- 977. Squares of a Sorted Array
+- 189. Rotate Array
+
+### Day 3
+Days Left: 11  
+Difficulty: (1 : 1 : 0)  
+Problems:
+- 283. Move Zeroes
+- 167. Two Sum II - Input Array Is Sorted
+
+### Day 4
+Days Left: 10  
+Difficulty: (2 : 0 : 0)  
+Problems:
+- 344. Reverse String
+- 557. Reverse Words in a String III
+
+### Day 5
+Days Left: 9  
+Difficulty: (1 : 1 : 0)  
+Problems:
+- 876. Middle of the Linked List
+- 19. Remove Nth Node From End of List
+
+### Day 6
+Days Left: 8  
+Difficulty: (0 : 2 : 0)  
+Problems:
+- 3. Longest Substring Without Repeating Characters
+- 567. Permutation in String
+
+### Day 7
+Days Left: 7  
+Difficulty: (1 : 1 : 0)  
+Problems:
+- 733. Flood Fill
+- 695. Max Area of Island
+
+### Day 8
+Days Left: 6  
+Difficulty: (1 : 1 : 0)  
+Problems:
+- 617. Merge Two Binary Trees
+- 116. Populating Next Right Pointers in Each Node
+
+### Day 10
+Days Left: 4  
+Difficulty: (2 : 0 : 0)  
+Problems:
+- 21. Merge Two Sorted Lists
+- 206. Reverse Linked List
