@@ -7,6 +7,7 @@ Using tags to mark status, difficulty, and topics for each problem. Tags should 
 
 - [first-attempt] First working attempt at the code. May or may not pass all the testcases  
     - [assisted]: External solution was used (beyond code editor, may be documentation lookup or function definition)
+    - [x-attempt]: Attempt number is updated dynamically
 
 - [main-topic]: Can range beyond array, two-pointers, binary-search, dp, graph, recursion, sliding-window, linked-list, tree  
 
@@ -14,6 +15,10 @@ Using tags to mark status, difficulty, and topics for each problem. Tags should 
     - [review]: Code is complete, just needs to be reviewed for logical consistencies and optimizations
 
 - [documentation]: Purely for documentation purposes. Need to visit commit history to look at older tags.
+
+- [implementation-type]: Replace with one of the sub-attributes based on the implementation type.
+    - [custom-logic]: In-built functions have been subbed out for logical problem solving practice
+    - [in-built]: Using the in-built functions to perform tasks
 
 #### Normalization rules
 - Separate multiple tags between square brackets.
