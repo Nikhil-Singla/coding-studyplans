@@ -7,7 +7,7 @@ Using tags to mark status, difficulty, and topics for each problem. Tags should 
 
 - [first-attempt] First working attempt at the code. May or may not pass all the testcases  
     - [assisted]: External solution was used (beyond code editor, may be documentation lookup or function definition)
-    - [x-attempt]: Attempt number is updated dynamically
+    - [x-attempt]: Attempt number is updated dynamically, each attempt is a different solution
 
 - [main-topic]: Can range beyond array, two-pointers, binary-search, dp, graph, recursion, sliding-window, linked-list, tree  
 
