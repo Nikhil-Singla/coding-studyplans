@@ -5,15 +5,7 @@ class Solution:
         """
         
         j = 0
-        n = len(nums)
-        for i in range(n):
+        for i in range(len(nums)):
             if nums[i] != 0:
-                nums[j] = nums[i]
+                nums[j], nums[i] = nums[i], nums[j]
                 j += 1
-
-            i += 1
-
-        for i in range(j, n):
-            nums[i] = 0
-
-        pass
