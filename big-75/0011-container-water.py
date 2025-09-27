@@ -1,27 +1,14 @@
 class Solution:
     def maxArea(self, height: List[int]) -> int:
-        n = len(height)
-
-        left = 0
-        right = n-1
-
+        left, right = 0, len(height)-1
         ans = 0
 
-        while (left < right):
-            flag = True
+        while(left < right):
             if height[left] < height[right]:
-                fill_line = height[left]
-                flag = True
-            else:
-                fill_line = height[right]
-                flag = False
-            
-            width = right - left
-            ans = max(ans, width*fill_line)
-
-            if flag:
+                ans = max(ans, height[left] * (right - left))
                 left += 1
             else:
+                ans = max(ans, height[right] * (right - left))
                 right -= 1
 
         return ans
