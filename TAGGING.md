@@ -9,6 +9,8 @@ Using tags to mark status, difficulty, and topics for each problem. Tags should 
     - [assisted]: External solution was used (beyond code editor, may be documentation lookup or function definition)
     - [x-attempt]: Attempt number is updated dynamically, each attempt is a different solution
 
+- [improved]: Code has been improved either in memory aspect or the speed aspect.
+
 - [main-topic]: Can range beyond array, two-pointers, binary-search, dp, graph, recursion, sliding-window, linked-list, tree  
 
 - [in-progress]: May range from in-progress code to needing refactorization
@@ -24,3 +26,4 @@ Using tags to mark status, difficulty, and topics for each problem. Tags should 
 - Separate multiple tags between square brackets.
 - Additional tags must be added to the file and can then be used.
 - Use 'kebab-case'. Convert spaces/underscores to hyphens and lowercase everything.  
+
