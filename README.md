@@ -1,10 +1,17 @@
-# leetcode_studyplans
-Study Plans
-Completed: 0.5+0.5
+# LeetCode Study Plans
 
-Current Status: Inactive
+A collection of solutions from various LeetCode study plans, tracking progress through algorithms, data structures, and dynamic programming.
 
-Disclaimer: 
-All the code is only tailored to the competition/problem and serves to demonstrate understanding, and is in no way exhaustive of the real world scenarios. 
-There are many ways to bypass security and act in bad faith by actors looking to exploit vulnerabilites.
-This is also not indicative of the "optimal" or the "complete" answer to the presented problem, but only code that behaves within the constraints of the competition.
+**Progress:** 50% complete  
+**Status:** Currently inactive
+
+## What's Here
+
+This repo contains problem solutions from multiple study tracks:
+- Algorithm fundamentals (binary search, two pointers, sliding window, DFS, recursion)
+- Dynamic programming problems
+- Big 75 LeetCode problems
+
+## A Quick Note
+
+The code here is built specifically to solve competition problems within their constraints. It's not production-grade, not meant to be exhaustive, and definitely not the only way to solve these problems. Think of it as a learning record; what worked, how I approached it, and what I learned along the way.

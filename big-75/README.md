@@ -1,8 +1,5 @@
-# Big 75 — Selected Problems
+# Big 75 Problems
 
-This folder contains a small curated set of problems (Big 75 subset).
+A focused set of problems covering the fundamentals—arrays, strings, linked lists, and basic algorithms. These are the problems that show up repeatedly in real interviews.
 
-## Problems
-
-- 1071. Greatest Common String (1071-greatest-common.py)
-- 1768. Merge Strings Alternately (1768-merge-strings.py)
+Each file is named with its LeetCode problem ID and my solution. Some problems have multiple attempts where I re-solved them to improve performance or explore different approaches.
